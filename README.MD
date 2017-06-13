@@ -16,7 +16,7 @@ The main things to get right with ThingSpeak are:
 2. The URI in your Publish request:  channel/{channel-id}/publish/{api-key}, where the channel-id and api-key you have to get from your ThingSpeak account.
 3. Parameters you set up in your channel settings (field1, field2 etc) are put into the data payload of your MQTT message, and are joined with '&', like the parameters of an HTTP message, e.g. field1=2&field2=6
 
-The channel example I used in the YouTube video (TBD) can be found here:
+The channel example I used in the YouTube video (https://youtu.be/yRtc_UKuJuU) can be found here:
 
 https://thingspeak.com/channels/285697/
 
